@@ -45,7 +45,7 @@ while True:
 	# read return value and frame
 	ret, frame = cap.read()
 
-	if ret == True:
+	if ret is True:
 		# show frame with thug life mask
 		cv2.imshow('Live', thug_mask(frame))
 
